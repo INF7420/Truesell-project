@@ -26,7 +26,7 @@ Main Content - brief description about myself including the Youtube video and th
 
 Footer - will include any copyright information
 
-![Wireframe of the Contact Page](wireframes/ContactWireframepage.jpeg)
+![Wireframe of the Contact Page](wireframes/ContactWireframePage.jpeg)
 
 Header - navigation menu
 
