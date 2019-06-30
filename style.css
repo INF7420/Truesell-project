@@ -36,7 +36,7 @@ nav a {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: rgb(138, 106, 168)}
+.dropdown-content a:hover {background-color: rgb(196, 172, 218)}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -46,12 +46,13 @@ nav a {
     background-color: blueviolet
 }
 
-.image-index {
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%
 }
+
 
 .header {
     margin-left: auto;
@@ -62,19 +63,35 @@ nav a {
 
 .footerarea {
     background-color: gray;
-    height: 60px;
+    height: 40px;
 }
 
 .footer {
-    background-color: gray;
-    width: 100%;
-    position: fixed;
-    margin-bottom: 0px;
-    height: 0px;
-    text-align: center;
-    display: block;
+    background-color: lightgray;
+    text-align: left;
+    padding: 5px;
 }
 .footercontent {
     padding: 5px;
-    text-align: center;
+    text-align: left;
 }
+
+.imgthumb {
+    border: 1 px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    left: 50px;
+}
+
+p.one {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkorchid;
+    padding: 10px;
+}
+
+p.example {
+    margin: 20px;
+}
+
