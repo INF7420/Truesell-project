@@ -1,5 +1,5 @@
 body {
-    background: lightskyblue;
+    background: #EAEFF2;
 }
 nav a {
     text-transform: capitalize;
@@ -7,7 +7,7 @@ nav a {
 }
 
 .dropbtn {
-    background-color: blueviolet;
+    background-color: #AFC5D8;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -24,7 +24,7 @@ nav a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: blueviolet;
+    background-color:  #AFC5D8;
     min-width: 100px;
     z-index: 1;
 }
@@ -36,14 +36,14 @@ nav a {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: rgb(196, 172, 218)}
+.dropdown-content a:hover {background-color: #AFC5D8}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: blueviolet
+    background-color: #AFC5D8;
 }
 
 .img {
@@ -62,12 +62,12 @@ nav a {
 }
 
 .footerarea {
-    background-color: gray;
+    background-color: #C7D0D8;
     height: 40px;
 }
 
 .footer {
-    background-color: lightgray;
+    background-color: #C7D0D8;
     text-align: left;
     padding: 5px;
 }
@@ -95,3 +95,52 @@ p.example {
     margin: 20px;
 }
 
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: e3m;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea { 
+ font: 1em sans-serif;
+ width: 300px;
+ box-sizing: border-box;
+ border: 1px solid #999;
+}
+
+textarea {
+ vertical-align: top;
+ height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+    
+}
+
+button {
+    margin-left: .5em;
+    cursor: pointer;
+    background-color: #FDD8D3;
+
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+}
